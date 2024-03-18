@@ -111,8 +111,7 @@
                                     <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>13 Sep
                                             2000</span></li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
-                                        <a
-                                            href="https://nandlalgurjar.github.io/portfolio/"><span>Web</span></a>
+                                        <a href="https://nandlalgurjar.github.io/portfolio/"><span>Web</span></a>
                                     </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong>
                                         <span>+91 63670 81279</span>
@@ -467,7 +466,7 @@
                         </div>
                     </div>
                     <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                        <form action="/contact" method="post" role="form" class="Node.Js-email-form">
+                        <form method="post" role="form" class="Node.Js-email-form">
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="name">Your Name</label>
@@ -484,17 +483,23 @@
                                 <input type="number" class="form-control" name="number" id="number" required>
                             </div>
                             <div class="form-group">
+                                <label for="companyName">Company name</label>
+                                <input type="text" class="form-control" name="companyName" id="companyName">
+                            </div>
+                            <div class="form-group">
                                 <label for="name">Subject</label>
                                 <input type="text" class="form-control" name="subject" id="subject" required>
                             </div>
                             <div class="form-group">
                                 <label for="name">Message</label>
-                                <textarea class="form-control" name="message" rows="10" required></textarea>
+                                <textarea class="form-control" name="message" rows="10" id="message"
+                                    required></textarea>
                             </div>
                             <div class="my-3">
                                 <div class="error-message"></div>
                             </div>
-                            <div class="text-center"><button type="submit" class="btn btn-primary">Send Message</button>
+                            <div class="text-center">
+                                <a id="emailLink" href="#" class="btn btn-primary">Send Email</a>
                             </div>
                         </form>
                     </div>
@@ -515,27 +520,35 @@
         </div>
     </footer><!-- End  Footer -->
     <script>
-        // function submitFrom(params) {
-        //     setTimeout(() => {
-        //         alert('Your message has been sent. Thank you !')
-        //     }, 1000);
-        // var formData = $('#myForm').serializeArray();
-        // let body = {}
-        // formData.forEach(entry => body[entry.name] = entry.value);
-        // console.log(body, "bbbb")
-        // body.redirect = "nandlal"
-        // $.ajax({
-        //     type: 'POST',
-        //     url: '/contact',
-        //     data: body,
-        //     success: function (response) {
-        //         alert("thanks i will connect as soon as possible !");
-        //     },
-        //     error: function (error) {
-        //         alert("samathing is wroung please cantact : +91 63670 81279");
-        //     }
-        // });
-        // };
+        window.onload = function () {
+            var emailLink = document.getElementById('emailLink');
+            emailLink.addEventListener('click', function (event) {
+                let name = document.getElementById('name').value;
+                let email = document.getElementById('email').value;
+                let phone = document.getElementById('number').value;
+                let companyName = document.getElementById('companyName').value;
+                let subjectTitle = document.getElementById('subject').value;
+                let message = document.getElementById('message').value;
+                const bodyMessage = message ? message : ` expertise in Node.js development has caught our attention, and we believe you'd be a great fit for our team.
+We'd like to invite you for an interview to discuss the Node.js Developer position further. This interview will provide us with the chance to delve into your experiences and how they align with our company's needs.
+We're flexible with scheduling and can accommodate your availability. If there are any specific preferences or requirements you have for the interview, please let us know. Kindly confirm your interest and availability by replying to this email or contacting me directly at [Your Contact Information].
+We're excited about the possibility of having you join our team and look forward to hearing from you soon.`
+                const subject = subjectTitle ? subjectTitle : `Invitation to Interview/Meeting for Node.js Developer Position`
+                let body = encodeURIComponent(`I'm ${name} from ${companyName}'s HR department.
+${bodyMessage}
+
+Best regards,
+${name}
+email:${email}
+phone:${phone}`);
+
+                event.preventDefault();
+                window.location.href = `mailto:nlgurjar.img@gmail.com?subject=${subject}&body=${body}`;
+                console.log(window.location.href, "==============")
+            });
+
+        }
+    </script>
     </script>
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
