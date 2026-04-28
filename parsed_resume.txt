@@ -1,0 +1,94 @@
+Nand Lal Gurjar
+§ portfolio | ï nand-lal-gurjar | # nandlalgurjar.35701@gmail.com | H +91 63670 81279
+
+Summary
+MERN Stack Developer with 3+ years of experience building scalable backend systems and AI-powered
+applications across fintech, edtech, sports, and real-time platforms. Skilled in Node.js, Express.js, React.js,
+MongoDB, GraphQL, and microservices architecture.
+Hands-on experience in developing AI-driven solutions using LLMs, vector databases, embeddings, and
+recommendation systems, including chat-based assistants and intelligent product recommendation engines.
+Proficient in designing high-performance REST/GraphQL APIs, integrating third-party services (payments, real-time data), and building production-ready systems with a focus on scalability, maintainability,
+and business impact.
+
+Work Experience
+MERN Stack Developer, Dev Technosys (CMMI Level 3)
+Feb 2026 – Present
+– Working on an AI-based skin analysis system that analyzes customer skin and recommends relevant
+merchant products.
+– Developing microservices-based architecture for scalable and modular backend systems.
+– Building Admin and Merchant panels using React.js for efficient product and user management.
+– Implementing recommendation logic and integrating AI/ML models into production workflows.
+– Designing and developing REST/GraphQL APIs for seamless frontend-backend communication.
+Senior Backend Developer, Appnweb Technology
+Jan 2025 – Aug 2025
+– Developed backend systems using Node.js and GraphQL for scalable applications.
+– Worked with Large Language Models (LLMs) and implemented AI-based features.
+– Designed and integrated Vector Databases and Vector Search for semantic data retrieval.
+– Utilized Firebase for real-time database management and cloud integrations.
+– Built efficient APIs and optimized performance for production-level applications.
+Associate Node.js Developer, IMG Global Infotech Pvt. Ltd.
+Nov 2022 – Jan 2025
+– Developed and deployed REST APIs for e-commerce, fintech, event management, and cryptocurrency
+domains.
+– Built a salon management system with auto-slot generation, auto-cancellation, and notification triggers.
+– Integrated Razorpay payment gateway with MongoDB and implemented refund workflows.
+– Designed cryptocurrency platforms (Bitinfy) and stock portfolio trackers with admin APIs.
+– Worked on football event management apps with real-time match updates using third-party integrations.
+
+Projects
+Developed and deployed scalable backend solutions across multiple domains:
+• AI Skin Analysis & Product Recommendation System – Built an AI-driven system that
+analyzes customer skin conditions and recommends suitable merchant products. Developed using
+microservices architecture with integrated AI/ML models and React-based Admin/Merchant panels.
+• AI Chat-Based Routine Assistant – Developed an intelligent chat-based application where
+
+users check in daily, track routines, and receive personalized AI responses based on past history and
+conversation context using LLMs and vector-based retrieval.
+• Fantasy Sports App – Developed a real-time fantasy sports platform with features like team
+creation, live match data integration, leaderboard management, and user wallet/points system.
+• StartUpAIF – A startup–investor platform covering the full investment lifecycle, including secondary trading and premium call scheduling.
+• Bitinfy – A cryptocurrency portfolio app with live pricing, analytics, and secure admin APIs.
+• PlaytPlus – A sports & entertainment platform featuring advanced tournaments, social engagement, and monetization.
+• EasyScore – A football live score application with odds, match listings, and real-time updates.
+• Time Me – A role-based scheduling and communication app for students, parents, and teachers
+(available on Google Play).
+• EduFlow – A modern school management system with real-time updates and role-based access
+control.
+• Finble App – A travel connector platform enabling service requests between users and providers.
+Portfolio: https://nandlalgurjar.github.io/portfolio/
+
+Education
+2021 – 2022
+2018 – 2020
+2016 – 2018
+
+Advance Diploma in Web Technology (ADWT), ICS Computer Education
+Class 12th (Science with Biology), Govt. School Khora Bishal
+Class 10th, Govt. School Khora Bishal
+
+72%
+75%
+62%
+
+Skills
+Programming Languages
+BackEnd Frameworks
+FrontEnd Frameworks
+Databases
+Cloud Services
+Tools
+Other
+
+JavaScript (ES6+), Node.js
+Node.js, Express.js, GraphQL
+React.js, Embedded JavaScript (EJS)
+MongoDB, Firestore, Redis, Vector Databases
+AWS EC2, AWS S3, Pub/Sub
+Git, Postman, VS Code
+Payment Gateway Integration (Razorpay), REST APIs, Scheduling Systems,
+Vector Search, Embeddings, LLM Integration
+
+Hobbies & Interests
+Coding side projects, exploring new technologies, reading tech blogs, and continuous self-learning.
+
+
